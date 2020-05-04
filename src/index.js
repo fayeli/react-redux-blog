@@ -10,5 +10,5 @@ ReactDOM.render(
     <Provider store={createStore(reducers)}>
         <App />
     </Provider>,
-    document.querySelector('#roots')
+    document.querySelector('#root')
 );
